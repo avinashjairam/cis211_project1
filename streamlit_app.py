@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Page Config
 st.set_page_config(
-  page_title ='Avinash | Portfolio',
+  page_title ='Avinash Jairam | Portfolio',
   page_icon='🎯',
   layout = 'wide'
 )
