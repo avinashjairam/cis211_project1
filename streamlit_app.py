@@ -53,6 +53,10 @@ if page == '🏠 Home':
             
                 🌱 **Fun Fact:** I can solve a Rubik's cube in under 2 minutes!
             ''')
+  with col2:
+    # Placeholder for image
+    st.image(), use_column_width=True)
+  
 
 
 
