@@ -71,6 +71,13 @@ elif page == '🤠 About':
                 - Activities: Track Team, Volleyball Team, Hackathon participant
             ''')
 
+  with st.expander('2023 - 2025: NYC Museum School'):
+    st.write('''
+                - Graduated with honors
+                - AP Computer Science A (Score: 5)
+                - Founded Coding Club
+            ''')
+
 
 
 
