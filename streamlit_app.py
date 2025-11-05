@@ -82,6 +82,7 @@ elif page == '🤠 About':
   interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
 
   # Display the interests in columns
+  cols = st.columns(3)
   for i, interest in enumerate(interests):
     with cols[i % 3]:
       st.info(f'🔷 {interest}')
