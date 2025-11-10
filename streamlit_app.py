@@ -20,7 +20,7 @@ st.markdown('''
 # Sidebar
 st.sidebar.title('📍 Navigation')
 page = st.sidebar.radio('Go to',
-                        ['🏠 Home', '🤠 About', ' 💼 Projects', '🛠 Skills' ,'📝 Resume', '📩 Contact' ])
+                        ['🏠 Home', '🤠 About', '💼 Projects', '🛠 Skills' ,'📝 Resume', '📩 Contact' ])
 
 # Home Page
 if page == '🏠 Home':
@@ -86,7 +86,9 @@ elif page == '🤠 About':
   for i, interest in enumerate(interests):
     with cols[i % 3]:
       st.info(f'🔷 {interest}')
-  
+elif page == '💼 Projects':
+  st.title('My Projects')
+  st.write('Here are some projects I have worked on:')
 
 
 
