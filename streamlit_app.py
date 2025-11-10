@@ -95,7 +95,7 @@ elif page == '💼 Projects':
     col1, col2 = st.columns([1, 2])
   
     with col1:
-        st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png')
+        st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png', use_column_width = True)
 
     with col2:
         st.subheader('🛒 E-Commerce Price Tracker')
@@ -107,7 +107,7 @@ elif page == '💼 Projects':
   with st.container():
     col1, col2 = st.columns([1,2])
     with col1:
-      st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg')
+      st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg', use_column_width = True)
     with col2:
       st.subheader('📊 Student Grade Calulator')
       st.write('Interactive web app for calculating and visualizing grades')
