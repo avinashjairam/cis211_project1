@@ -134,6 +134,14 @@ elif page == '🛠 Skills':
     with col2:
       st.progress(level/100)
 
+  st.subheader('Tools & Technologies')
+
+  col1, col2, col3 = st.columns(3)
+  with col1:
+      st.success('Excel')
+      st.info('Word')
+      st.warning('Access')
+
 
 
 
