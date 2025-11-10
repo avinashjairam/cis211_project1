@@ -138,9 +138,21 @@ elif page == '🛠 Skills':
 
   col1, col2, col3 = st.columns(3)
   with col1:
-      st.success('Excel')
-      st.info('Word')
-      st.warning('Access')
+    st.success('Excel')
+    st.info('Word')
+    st.warning('Access')
+
+  with col2:
+    st.success('PowerPoint')
+    st.info('Google Docs')
+    st.warning('ChatGPT/AI Tools')
+    
+  with col3:
+    st.success('Presentations')
+    st.info('Writing')
+    st.warning('Social Media')
+    
+      
 
 
 
