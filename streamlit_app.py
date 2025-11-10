@@ -90,6 +90,9 @@ elif page == '💼 Projects':
   st.title('My Projects')
   st.write('Here are some projects I have worked on:')
 
+  with col1:
+      st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png')
+
 
 
 
