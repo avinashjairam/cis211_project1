@@ -121,8 +121,18 @@ elif page == '🛠 Skills':
 
   skills_data = {
     'Python' : 85,
-    'HTML/CSS' : 70
+    'HTML/CSS' : 70,
+    'JavaScript' : 60,
+    'SQL' : 50,
+    'Technical Writing' : 40
   }
+
+  for skill, level in skills_data.items():
+    col1, col2 = st.columns([1,3])
+    with col1:
+      st.write(skill)
+    with col2:
+      st.progress(level/100)
 
 
 
