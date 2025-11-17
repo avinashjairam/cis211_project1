@@ -178,6 +178,11 @@ elif page == '📩 Contact':
     st.write('''
         📧 **Email:** yourname@email.com
 
+        🏢 **LinkedIn:** [linkedin.com/in/yourname]
+
+        👩‍💻 **Github:** [https://github.com/avinashjairam]
+
+        📷 **Instagram:** [@yourhandle(https://instagram.com)]
 
     ''')
     
