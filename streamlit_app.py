@@ -188,8 +188,18 @@ elif page == '📩 Contact':
 
     # Fun interative element
     st.subheader('Current Status')
-    status = st.selectbox("I'm currently:",
-                            ['👩‍💻 Coding', '📕 Studying', '☕ On a coffee break', '🎮 Gaming', '😴 Sleeping']
+
+    status = st.selectbox(
+        "I'm currently:",
+        [
+            '👩‍💻 Coding',
+            '📕 Studying',
+            '☕ On a coffee break',
+            '🎮 Gaming',
+            '😴 Sleeping'
+        ]
+    )
+
 
     st.info(f'Status: {status}')
     
