@@ -86,6 +86,7 @@ elif page == '🤠 About':
   for i, interest in enumerate(interests):
     with cols[i % 3]:
       st.info(f'🔷 {interest}')
+      
 elif page == '💼 Projects':
   st.title('My Projects')
   st.write('Here are some projects I have worked on:')
@@ -151,7 +152,9 @@ elif page == '🛠 Skills':
     st.success('Presentations')
     st.info('Writing')
     st.warning('Social Media')
-    
+
+elif page == '📝 Resume':
+  st.title('Resume')
       
 
 
