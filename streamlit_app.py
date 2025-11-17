@@ -170,10 +170,17 @@ elif page == '📝 Resume':
 elif page == '📩 Contact':
   st.title("Let's Connect!")
 
-  col1, col2 = st.columns(2)
+  col1 = st.column(1)
 
   with col1:
     st.subheader('Send me a message.')
+
+    st.write('''
+        📧 **Email:** yourname@email.com
+
+
+    ''')
+    
 
 
 
